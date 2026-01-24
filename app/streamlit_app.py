@@ -18,7 +18,14 @@ import numpy as np
 APP_DIR = os.path.dirname(os.path.abspath(__file__))
 if APP_DIR not in sys.path:
     sys.path.append(APP_DIR)
-    
+
+import os
+import sys
+
+CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
+if CURRENT_DIR not in sys.path:
+    sys.path.append(CURRENT_DIR)
+
 from utils import fetch_data, validate_df, add_features
 from plots import plot_price_ma, plot_volume, plot_return_dist, plot_volatility
 
