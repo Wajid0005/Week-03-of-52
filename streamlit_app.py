@@ -1,6 +1,6 @@
 # app/streamlit_app.py
 """
-Streamlit UI for Week03 - Interactive Financial Dashboard (Phase 2).
+Streamlit UI for Week03 - Interactive Financial Dashboard.
 - Uses DF naming and column names consistent with Phase-1 notebook.
 - Relies on utils.py (fetch_data, validate_df, add_features) and plots.py (plot_* functions).
 """
