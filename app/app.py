@@ -19,13 +19,9 @@ APP_DIR = os.path.dirname(os.path.abspath(__file__))
 if APP_DIR not in sys.path:
     sys.path.append(APP_DIR)
 
-from utils import fetch_data, validate_df, add_features
-from plots import (
-    plot_price_ma,
-    plot_volume,
-    plot_return_dist,
-    plot_volatility,
-)
+from app.utils import fetch_data, validate_df, add_features
+from app.plots import plot_price_ma, plot_volume, plot_return_dist, plot_volatility
+
 
 # -------------------------
 # Page config
